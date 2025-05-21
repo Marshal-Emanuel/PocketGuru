@@ -26,7 +26,7 @@ To enhance the PocketGuru PWA by wrapping it in native Android and iOS applicati
 ### Phase 1: Initial Project Setup & Capacitor Integration
 
 *   ⚪️ **1.1. Prepare PWA for Capacitor:**
-    *   ⚪️ Ensure PWA is functioning correctly and accessible via a stable URL.
+    *   ✅ Ensure PWA is functioning correctly and accessible via a stable URL.
     *   ⚪️ Review PWA for any elements that might conflict with a native wrapper environment.
 *   ✅ **1.2. Set up Development Environment:**
     *   ✅ Node.js and npm/yarn installed.
@@ -39,9 +39,9 @@ To enhance the PocketGuru PWA by wrapping it in native Android and iOS applicati
 *   ✅ **1.4. Add Platforms:**
     *   ✅ Android platform added (`my-app/android`).
     *   ⚪️ Add iOS platform (can be deferred): `npx cap add ios`
-*   ⚪️ **1.5. Configure Capacitor to Load PWA:**
-    *   ⚪️ Open `capacitor.config.json` (or `capacitor.config.ts`).
-    *   ⚪️ Set the `server.url` property to your live PWA's URL.
+*   ✅ **1.5. Configure Capacitor to Load PWA:**
+    *   ✅ Open `capacitor.config.json` (or `capacitor.config.ts`).
+    *   ✅ Set the `server.url` property to your live PWA's URL.
         ```json
         {
           "appId": "com.pocketguru.app",
@@ -54,19 +54,19 @@ To enhance the PocketGuru PWA by wrapping it in native Android and iOS applicati
         }
         ```
     *   ⚪️ Or, configure `webDir` to point to a local build of your PWA and run `npx cap sync`.
-*   ⚪️ **1.6. Initial Run & Test:**
-    *   ⚪️ Open Android project: `npx cap open android`
-    *   ⚪️ Build and run the app on an emulator or device from Android Studio.
-    *   ⚪️ Verify that your PWA loads correctly within the Capacitor WebView.
+*   ✅ **1.6. Initial Run & Test:**
+    *   ✅ Open Android project: `npx cap open android`
+    *   ✅ Build and run the app on an emulator or device from Android Studio.
+    *   ✅ Verify that your PWA loads correctly within the Capacitor WebView.
     *   ⚪️ (If iOS added) Open iOS project: `npx cap open ios` and test.
 
 ### Phase 2: Android - Google Play Billing Integration
 
-*   ⚪️ **2.1. Google Play Console Setup:**
-    *   ⚪️ Create or access your Google Play Developer account.
-    *   ⚪️ Create a new application entry for "PocketGuru".
-    *   ⚪️ Set up In-App Products (e.g., subscriptions, one-time purchases). Note Product IDs.
-    *   ⚪️ Set up a license test account.
+*   🚧 **2.1. Google Play Console Setup:**
+    *   ✅ Access to Google Play Developer account granted (`marshcodes@gmail.com`).
+    *   ✅ Existing application entry for "PocketGuru" located.
+    *   ⚪️ **Create In-App Products** (e.g., subscriptions, one-time purchases). Note Product IDs.
+    *   ⚪️ Confirm/Set up license test account(s).
 *   ✅ **2.2. Add Billing Library Dependency (Android):**
     *   ✅ `com.android.billingclient:billing:7.0.0` added to `my-app/android/app/build.gradle`.
     *   ✅ Gradle files synced.
