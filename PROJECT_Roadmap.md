@@ -1,7 +1,7 @@
 # Project: Integrating Native In-App Purchases into PocketGuru PWA
 
 ## 1. Current Situation & Problem Statement
-
+ 
 **Current Situation:**
 *   **PocketGuru PWA:** A Progressive Web App built with WordPress and WooCommerce.
 *   **Payments:** Currently handled exclusively through WooCommerce's web-based checkout.
