@@ -16,7 +16,7 @@
 **Problem Statement / Goal:**
 To enhance the PocketGuru PWA by wrapping it in native Android and iOS applications using Capacitor. This will allow the integration of native In-App Purchase (IAP) systems (Google Play Billing for Android, Apple IAP for iOS). The application must conditionally use these native payment systems when running as an installed mobile app and retain the existing WooCommerce payment gateway when accessed via a web browser.
 
-## 2. Detailed Implementation Plan
+## 2. Detailed Implementation Plan 
 
 **Legend:**
 *   ⚪️ - To Do 
