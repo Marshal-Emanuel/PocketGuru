@@ -19,7 +19,7 @@ To enhance the PocketGuru PWA by wrapping it in native Android and iOS applicati
 ## 2. Detailed Implementation Plan
 
 **Legend:**
-*   ⚪️ - To Do
+*   ⚪️ - To Do 
 *   ✅ - Done
 *   🚧 - Partially Done / In Progress
 
